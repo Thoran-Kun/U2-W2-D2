@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/logo.png" style="width: 100px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Saldi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Welcome Summer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Last Minute</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Recensioni</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Cerca posti da sogno"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger" type="submit">
+                Cerca
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Fine navbar -->
+    <main class="p-3">
+      <div class="container p-3 text-center bg-body-tertiary my-3">
+        <div class="row">
+          <div
+            class="col col-12 border border-top-0 border-end-0 border-start-0 text-center"
+          >
+            <p>Evelin-R-<span>Feel the Freedom</span></p>
+          </div>
+          <div class="col col-12 text-center">
+            <p>Scopri le destinazioni più calde del <br />momento!</p>
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-info text-white">
+              Prenota ora
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- fine container Pubblicitario -->
+      <!-- inizio card -->
+      <div clas="container my-4">
+        <div class="row align-items-center mb-3">
+          <div class="col">
+            <h3 class="mb-0">Saldi</h3>
+          </div>
+          <div class="col-auto ms-auto">
+            <button
+              class="btn btn-link p-0 text-info"
+              data-bs-toggle="collapse"
+              data-bs-target="#saldiGrid"
+              aria-expanded="true"
+              aria-controls="saldiGrid"
+            >
+              Nascondi sezione
+            </button>
+          </div>
+        </div>
+        <!-- Contenuto collassabile -->
+        <div class="collapse show" id="saldiGrid">
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Welcome Summer -->
+      <div clas="container my-4">
+        <div class="row align-items-center mb-3 my-4">
+          <div class="col">
+            <h3 class="mb-0">Welcome Summer</h3>
+          </div>
+          <div class="col-auto ms-auto">
+            <button
+              class="btn btn-link p-0 text-info"
+              data-bs-toggle="collapse"
+              data-bs-target="#welcomeGrid"
+              aria-expanded="true"
+              aria-controls="welcomeGrid"
+            >
+              Nascondi sezione
+            </button>
+          </div>
+        </div>
+        <!-- Contenuto collassabile -->
+        <div class="collapse show" id="welcomeGrid">
+          <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-info">
+                <img src="./assets/images.jpg" class="card-img-top" alt="" />
+                <div class="card-body">
+                  <h5 class="card-title">Titolo</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="#" class="btn btn-info text-white">Prenota</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Offerte del giorno -->
+      <h2 class="mt-5">Offerta del giorno</h2>
+      <div class="container mt-lg-4 mb-5">
+        <div class="row">
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <div>
+              <p>Fushifaru <br />Maldives</p>
+            </div>
+            <div>15.01.2021-31.01.2021</div>
+            <div>
+              <p>Ville a partire da 500$,<br />non fartele sfuggire!</p>
+            </div>
+            <button type="button" class="btn btn-dark rounded-pill">
+              Best offer
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- fine offerte del giorno -->
+      <h3>Last Minute</h3>
+      <div class="container">
+        <div class="row row-cols-2 row-cols-lg-6 g-4">
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+          <div class="col">
+            <img src="./assets/images.jpg" />
+          </div>
+        </div>
+      </div>
+      <!-- fine Last minute -->
+      <h3 class="text-center mt-5">Dicono di noi</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col col-2">
+            <i class="bi bi-person-circle"></i>
+          </div>
+          <div class="col col-10">
+            <h5>Username</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+              dolor recusandae assumenda itaque sit! Suscipit quasi deserunt
+              numquam rem repellendus voluptas veritatis beatae recusandae magni
+              autem, ipsum enim maxime totam! Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Tenetur quod distinctio voluptatum
+              maiores eum earum nulla aspernatur, odio omnis quia dicta alias
+              ipsa laudantium rem ab exercitationem vitae tempore perferendis.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
